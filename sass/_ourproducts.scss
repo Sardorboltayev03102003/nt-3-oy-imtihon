@@ -1,0 +1,45 @@
+ h1{
+  padding: 40px 0;
+  text-align: center;
+ }
+.box {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+.breads {
+  font-size: 32px;
+  // background-color: aqua;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.bread{
+  padding: 0 20px 0 30px;
+  position: relative;
+  padding: 50px 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bread:nth-child(1) {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+
+ img {
+    max-width: 500px;
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
+  }
+}
+
+.bread:hover .breads2 {
+  height: 50px;
+}
+ 

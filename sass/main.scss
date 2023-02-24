@@ -1,0 +1,23 @@
+@import "./container";
+@import "./header";
+@import "./logo";
+@import "./ourproducts";
+@import "./newproducts";
+@import "./best";
+@import "./footer";
+@import "./footer2";
+
+*{
+    margin: 0;
+    padding: 0;scroll-behavior: smooth;
+    color: inherit;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
